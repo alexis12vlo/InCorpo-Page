@@ -52,3 +52,22 @@ function mouseOut() {
   document.getElementById("botonase").style.color = "#FFFFFF";
 }
 }
+function mostrar() {
+    document.getElementById("menures1").style.display ='flex';
+    document.getElementById("menuicon").style.display ='none';
+    document.getElementById("menuicon2").style.display ='flex';
+
+  
+
+  }
+  document.getElementById("menuicon").onclick=function(){
+    mostrar();
+  }
+  function ocultar() {
+    document.getElementById("menures1").style.display ='none';
+    document.getElementById("menuicon").style.display ='flex';
+    document.getElementById("menuicon2").style.display ='none'; 
+  }
+  document.getElementById("menuicon2").onclick=function(){
+    ocultar();
+  }
